@@ -1,22 +1,10 @@
-# pustaya-lavka
+# Добро пожаловать!
 
-Простой статический сайт. Инструкции по деплою на GitHub Pages:
+Спасибо, что посетили наш репозиторий — здесь находится сайт сообщества.
 
-1. Создайте новый репозиторий на GitHub (например `pustaya-lavka`).
-2. В локальной папке проекта выполните:
+Присоединяйтесь к нам:
 
-```powershell
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git branch -M main
-git push -u origin main
-```
+- Telegram: https://t.me/Gamesonstrimesotaku
+- YouTube: https://www.youtube.com/@Otaku02_jr7
 
-3. На GitHub: Settings → Pages → Source: `main` branch (root) → Save. Через несколько минут сайт будет доступен по адресу `https://<your-username>.github.io/<repo-name>`.
-
-Если хотите — можно использовать `gh` (GitHub CLI) для автоматизации:
-
-```powershell
-gh repo create <repo-name> --public --source=. --remote=origin --push
-```
-
-Если нужна помощь с пушем или созданием репозитория — скажите, помогу.
+Сайт публикуется через GitHub Pages: https://Nikolai2359.github.io/pustaya-lavka
