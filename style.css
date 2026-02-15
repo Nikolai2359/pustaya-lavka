@@ -1,0 +1,23 @@
+body {
+   background-color:#1a1a1a;
+   line-height: 1.6;
+   padding: 20px;
+   font-family: Arial, Sans-serif;
+}
+p {
+   color: white;
+}
+h1, h2, h3 {
+   color: #ffcc00;
+   font-size: 28px;
+}
+ol, ul {
+   color: white;
+}
+a {
+   color: #00bfff;
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
