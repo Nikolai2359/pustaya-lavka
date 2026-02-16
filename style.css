@@ -7,15 +7,21 @@ body {
 p {
    color: white;
 }
-h1 {
-   color: #ffcc00;
-   font-size: 28px;
-}
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
    color: #ff8800;
    font-size: 28px;
 }
+.gold {
+    color: gold; /* или #FFD700 */
+}
 
+.silver {
+    color: silver; /* или #C0C0C0 */
+}
+
+.bronze {
+    color: #cd7f32; /* классический бронзовый оттенок */
+}
 ol, ul {
    color: white;
 }
@@ -36,5 +42,21 @@ a:hover {
    height: auto;
    border: #12011d;
    border-radius: 3px;
+}
+.admin-cool {
+    color: rgb(0, 255, 242);
+    text-shadow: #12011d 1px 1px 2px;
+}
+.admin-senior {
+    color: rgb(157, 255, 0);
+    text-shadow: #12011d 1px 1px 2px;
+}
+.admin-anime {
+    color: rgb(190, 8, 206);
+    text-shadow: #12011d 1px 1px 2px;
+}
+.admin-old {
+    color: rgb(255, 0, 55);
+    text-shadow: #12011d 1px 1px 2px;
 }
 
