@@ -59,25 +59,45 @@ a:hover {
     color: rgb(255, 0, 55);
     text-shadow: #12011d 1px 1px 2px;
 }
-/* Применяем ко всему сайту */
+/* Настройка всего тела страницы */
 body {
-    text-align: center; /* Центрирует текст, кнопки и ссылки */
+    background-color: #1a1a1a; /* Твой темный фон */
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+    /* Включаем режим Flexbox — он лучший для центрирования */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Центрирует блоки, картинки и списки */
-    margin: 0;
-    padding: 20px;
+    align-items: center; /* Центрирует всё по горизонтали */
+    text-align: center;  /* Центрирует текст внутри строк */
 }
 
-/* Чтобы картинки не вылезали за края и были по центру */
+/* Настройка навигации, чтобы ссылки не слипались */
+nav {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #111;
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #8a2be2; /* Твой фиолетовый цвет */
+}
+
+/* Чтобы картинки были по центру и не ломали верстку */
 img {
     display: block;
     margin: 20px auto; 
-    border-radius: 10px; /* Бонус: немного скруглим углы, будет симпатичнее */
+    max-width: 90%; /* Чтобы на телефонах картинки не вылезали за экран */
+    height: auto;
 }
 
-/* Чтобы списки в рейтинге не прижимались к левому краю, а стояли по центру */
-ol {
-    display: inline-block;
-    text-align: left; /* Текст внутри списка останется удобным для чтения */
+/* Чтобы списки в рейтинге выглядели аккуратно */
+ol, ul {
+    text-align: left; /* Текст в списке читаем слева */
+    display: inline-block; /* Но сам блок списка стоит по центру */
+    margin-bottom: 20px;
 }
