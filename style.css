@@ -59,4 +59,8 @@ a:hover {
     color: rgb(255, 0, 55);
     text-shadow: #12011d 1px 1px 2px;
 }
+.admin-tik-tik {
+    color: rgb(37, 37, 37);
+      gradient: linear-gradient(45deg, rgb(37, 37, 37), rgb(165, 165, 165));
+}
 
