@@ -59,8 +59,25 @@ a:hover {
     color: rgb(255, 0, 55);
     text-shadow: #12011d 1px 1px 2px;
 }
-.admin-tik-tik {
-    color: rgb(37, 37, 37);
-      gradient: linear-gradient(45deg, rgb(37, 37, 37), rgb(165, 165, 165));
+/* Применяем ко всему сайту */
+body {
+    text-align: center; /* Центрирует текст, кнопки и ссылки */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирует блоки, картинки и списки */
+    margin: 0;
+    padding: 20px;
 }
 
+/* Чтобы картинки не вылезали за края и были по центру */
+img {
+    display: block;
+    margin: 20px auto; 
+    border-radius: 10px; /* Бонус: немного скруглим углы, будет симпатичнее */
+}
+
+/* Чтобы списки в рейтинге не прижимались к левому краю, а стояли по центру */
+ol {
+    display: inline-block;
+    text-align: left; /* Текст внутри списка останется удобным для чтения */
+}
