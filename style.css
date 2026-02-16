@@ -7,15 +7,20 @@ body {
 p {
    color: white;
 }
-h1, h2, h3 {
+h1 {
    color: #ffcc00;
    font-size: 28px;
 }
+h2, h3, h4, h5, h6 {
+   color: #ff8800;
+   font-size: 28px;
+}
+
 ol, ul {
    color: white;
 }
 a {
-   color: #00bfff;
+   color: rgb(132, 2, 255);
    text-decoration: none;
 }
 a:hover {
@@ -29,7 +34,7 @@ a:hover {
 .gallery img {
    width: 300px;
    height: auto;
+   border: #12011d;
    border-radius: 3px;
-   border-color: antiquewhite;
 }
 
