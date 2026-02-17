@@ -115,7 +115,7 @@ ol, ul {
     box-shadow: 0 10px 20px rgba(100, 100, 100, 0.5);
 }
 .info {
-    text-size: 20px;
+    text-size: 25px;
     font-weight: bold;
     opacity: 0;
     visibility: hidden;
