@@ -66,7 +66,7 @@ body {
     margin: 0;
     padding: 0;
     
-    /* Включаем режим Flexbox — он лучший для центрирования */
+    /*режим Flexbox — он лучший для центрирования */
     display: flex;
     flex-direction: column;
     align-items: center; /* Центрирует всё по горизонтали */
@@ -100,4 +100,14 @@ ol, ul {
     text-align: left; /* Текст в списке читаем слева */
     display: inline-block; /* Но сам блок списка стоит по центру */
     margin-bottom: 20px;
+}
+.avatar-rating {
+    position:relative;
+    transition: transform 0.35 ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+.avatar-rating:hover {
+    transform: translateY(-5px);
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(100, 100, 100, 0.5);
 }
