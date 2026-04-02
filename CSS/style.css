@@ -130,3 +130,9 @@ ol, ul {
 .card:hover .avatar-rating {
     transform: translateY(-25px);
 }
+video.avatar-rating {
+    object-fit: cover;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;    
+}
